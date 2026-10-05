@@ -1,0 +1,42 @@
+[theme]
+base = "light"
+primaryColor = "#2563EB"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F6FC"
+textColor = "#17233B"
+linkColor = "#1D4ED8"
+borderColor = "#DCE4F2"
+codeBackgroundColor = "#F5F7FB"
+codeTextColor = "#1F3B73"
+
+font = "Cairo:https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap"
+headingFont = "Cairo:https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;900&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+
+baseRadius = "0.7rem"
+showSidebarBorder = true
+
+redColor = "#E8536B"
+orangeColor = "#F59E0B"
+yellowColor = "#EAB308"
+greenColor = "#10B981"
+blueColor = "#3B82F6"
+violetColor = "#8B5CF6"
+grayColor = "#64748B"
+
+chartCategoricalColors = ["#3B82F6", "#14B8A6", "#F59E0B", "#E8536B", "#8B5CF6", "#10B981", "#FB923C", "#06B6D4"]
+chartSequentialColors = ["#EEF4FF", "#DCE8FD", "#C2D8FB", "#A3C4F8", "#7FACF4", "#5C93EE", "#3B7AE3", "#2563EB", "#1D4ED8", "#1A3FA8"]
+
+dataframeHeaderBackgroundColor = "#EDF3FE"
+dataframeBorderColor = "#DCE4F2"
+
+[theme.sidebar]
+backgroundColor = "#F7FAFF"
+secondaryBackgroundColor = "#EAF1FD"
+borderColor = "#D6E2F6"
+
+[server]
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
