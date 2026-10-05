@@ -8,6 +8,8 @@
 التشغيل:  streamlit run streamlit_app.py
 """
 
+from pathlib import Path
+
 import streamlit as st
 
 from core.ui import setup_page, inject_css, signature
@@ -61,7 +63,9 @@ PAGES = {
     ],
 }
 
-st.logo("assets/logo.svg", size="large")
+_LOGO = Path(__file__).parent / "assets" / "logo.svg"
+if _LOGO.is_file():
+    st.logo(str(_LOGO), size="large")
 
 page = st.navigation(PAGES, position="sidebar")
 

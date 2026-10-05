@@ -1,5 +1,6 @@
-streamlit>=1.57
-numpy>=1.26
-pandas>=2.0
-scipy>=1.11
-plotly>=5.20
+# Verified against the exact stack Streamlit Community Cloud resolves.
+streamlit>=1.57,<2
+numpy>=1.26,<3
+pandas>=2.0,<4
+scipy>=1.11,<2
+plotly>=5.20,<8
