@@ -2,6 +2,10 @@
 
 **Bootstrap & Bootstrap-Based Diagnostic Tests — an Arabic interactive guide**
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bootardl.streamlit.app/)
+
+🔗 **المنصّة مباشرةً:** <https://bootardl.streamlit.app/>
+
 منصّة تعليمية تفاعلية باللغة العربية تشرح البوتستراب (Bootstrap) من الصفر،
 وأنواعه، والاختبارات البعدية (post-estimation diagnostic tests) المعتمدة عليه،
 وعائلة Bootstrap ARDL — مع رسوم متحرّكة، ومحرّك محاكاة حيّ، ومختبر تفاعلي.
@@ -64,9 +68,16 @@
 
 ---
 
-## التشغيل محلياً
+## التشغيل
+
+**على الإنترنت** — لا يحتاج أي تثبيت:
+<https://bootardl.streamlit.app/>
+
+**محلياً:**
 
 ```bash
+git clone https://github.com/merwanroudane/bootardl.git
+cd bootardl
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
@@ -166,4 +177,8 @@ ssc install mtnardl,  replace   // NARDL متعدّد العتبات
 ## المؤلّف
 
 **د. مروان رودان** — Dr Merwan Roudane
-<merwanroudane920@gmail.com> · https://github.com/merwanroudane
+
+- المنصّة: <https://bootardl.streamlit.app/>
+- المستودع: <https://github.com/merwanroudane/bootardl>
+- GitHub: <https://github.com/merwanroudane>
+- البريد: <merwanroudane920@gmail.com>
