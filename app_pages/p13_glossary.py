@@ -1,6 +1,5 @@
 """قاموس المصطلحات والمراجع."""
 
-import pandas as pd
 import streamlit as st
 
 from core.ui import hero, card, note, table, PALETTE
